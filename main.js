@@ -5,7 +5,7 @@ onScroll();
 function onScroll() {
   showNavOnScroll();
   showBackToTopButtonOnScroll();
-  const sections = [home, services, showServices, about, contact];
+  const sections = [home, services, locationpage, about, contact];
   sections.forEach((section) => activateMenuAtCurrentSection(section));
   smoothScroll();
 }

@@ -34,7 +34,7 @@ const state = {
 };
 
 const buttonsControllers = document.querySelectorAll(
-  "#showServices .controllers button"
+  "#locationpage .controllers button"
 );
 
 buttonsControllers.forEach((button) => {
