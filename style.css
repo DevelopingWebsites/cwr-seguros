@@ -216,7 +216,7 @@ nav .wrapper {
   justify-content: space-between;
 }
 
-nav.scroll {
+nav {
   background: var(--primary-color);
 }
 
@@ -644,7 +644,7 @@ footer .social-links img {
   }
 
   nav#navigation .menu ul li a {
-    color: var(--secondary-color);
+    color: var(--brand-orange-light);
     opacity: 0.7;
   }
 
@@ -689,6 +689,7 @@ footer .social-links img {
   nav#navigation .menu li a:hover {
     opacity: 1;
     font-weight: 700;
+    color: var(--secondary-color);
   }
 
   nav#navigation .menu li a::after {
